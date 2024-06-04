@@ -13,7 +13,14 @@ body {
   padding: 0;
   width: 100%;
 }
-
+/* add an amazing animation to the social icons */
+.socialIcon {
+  transition: transform 0.3s ease-in-out;
+} /* add a hover effect to the social icons */  .socialIcon:hover {
+  transform: scale(1.2);
+} /* add a hover effect to the social icons */  .socialIcon:hover {
+  transform: scale(1.2);
+}      
 div#main {
   display: flex;
   flex-direction: column;
